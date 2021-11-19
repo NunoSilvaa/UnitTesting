@@ -14,8 +14,15 @@ public class ListAggregatorTest {
         list = Arrays.asList(1,2,4,2,5);
     }
     @Test
-    public void sum() {
+    public void max_bug_7263(){
+        List<Integer> list404 = Arrays.asList(-1, -4, -5);
+        ListAggregator aggregator = new ListAggregator();
+        int max = aggregator.max(list404);
 
+        Assertions.assertEquals(-1, max);
+    }
+    @Test
+    public void sum() {
         ListAggregator aggregator = new ListAggregator();
         int sum = aggregator.sum(list);
 
