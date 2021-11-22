@@ -22,7 +22,7 @@ public class ListAggregatorTest {
         Assertions.assertEquals(-1, max);
     }
     @Test
-      public void distinct_bug_8726(){
+    public void distinct_bug_8726(){
         List<Integer> list = Arrays.asList(1,2,4,2);
         class StubListDeduplicator implements GenericListDeduplicator{
             @Override public List<Integer> deduplicate(List<Integer> list) {
@@ -77,10 +77,8 @@ public class ListAggregatorTest {
 
    /* @Test
     public void distinct() {
-
         ListAggregator aggregator = new ListAggregator();
         int distinct = aggregator.distinct(list);
-
         Assertions.assertEquals(4, distinct);
     }*/
 }

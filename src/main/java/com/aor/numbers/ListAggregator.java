@@ -57,10 +57,8 @@ public class ListAggregator {
         return distinct.size();
     }
     /*public int distinct(List<Integer> list) {
-
         ListDeduplicator deduplicator = new ListDeduplicator();
         List<Integer> distinct = deduplicator.deduplicate(list);
-
         return distinct.size();
     }*/
 }
