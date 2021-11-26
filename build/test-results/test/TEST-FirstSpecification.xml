@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FirstSpecification" tests="7" skipped="0" failures="1" errors="0" timestamp="2021-11-26T16:43:55" hostname="DESKTOP-OK9QO7I" time="0.765">
+  <properties/>
+  <testcase name="one plus one should equal two" classname="FirstSpecification" time="0.332"/>
+  <testcase name="two plus two should equal four" classname="FirstSpecification" time="0.003"/>
+  <testcase name="Should be able to remove from list" classname="FirstSpecification" time="0.05"/>
+  <testcase name="Should get an index out of bounds when removing a nonexistent item" classname="FirstSpecification" time="0.008"/>
+  <testcase name="numbers to the power of two [a: 1, b: 2, c: 3, #0]" classname="FirstSpecification" time="0.357">
+    <failure message="Condition not satisfied:&#10;&#10;Math.pow(a, b) == c&#10;|    |   |  |  |  |&#10;|    1.0 1  2  |  3&#10;|              false&#10;class java.lang.Math&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+Math.pow(a, b) == c
+|    |   |  |  |  |
+|    1.0 1  2  |  3
+|              false
+class java.lang.Math
+
+	at FirstSpecification.numbers to the power of two(FirstSpecification.groovy:40)
+</failure>
+  </testcase>
+  <testcase name="numbers to the power of two [a: 2, b: 2, c: 4, #1]" classname="FirstSpecification" time="0.001"/>
+  <testcase name="numbers to the power of two [a: 3, b: 2, c: 9, #2]" classname="FirstSpecification" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
