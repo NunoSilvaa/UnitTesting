@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ListDeduplicatorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-11-28T23:14:56" hostname="DESKTOP-OK9QO7I" time="0.007">
+  <properties/>
+  <testcase name="deduplicate" classname="ListDeduplicatorTest" time="0.006"/>
+  <testcase name="bug_deduplicate_8726" classname="ListDeduplicatorTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
