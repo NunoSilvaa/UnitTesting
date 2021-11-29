@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ListSorterTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-11-28T23:27:03" hostname="DESKTOP-OK9QO7I" time="0.005">
+<testsuite name="ListSorterTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-11-28T23:55:20" hostname="DESKTOP-OK9QO7I" time="0.003">
   <properties/>
-  <testcase name="Sort" classname="ListSorterTest" time="0.005"/>
-  <testcase name="bug_sort_8276" classname="ListSorterTest" time="0.0"/>
+  <testcase name="Sort" classname="ListSorterTest" time="0.002"/>
+  <testcase name="bug_sort_8276" classname="ListSorterTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
